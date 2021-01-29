@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Age Of Empires II - Database</title>
+  </head>
+  <body>
+    <nav class="topbar">
+      <div class="mobile-circulo">⭕</div>
+      <p class="toptext">AGE OF EMPIRES II - DATABASE</p>
+      <div class="categories">
+        <div
+          data-item="civilizations"
+          class="bar_item civ"
+          style="border-left: none"
+        >
+          CIVILIZATIONS
+        </div>
+        <div data-item="units" class="bar_item unit">UNITS</div>
+        <div data-item="structures" class="bar_item struc">STRUCTURES</div>
+        <div data-item="technologies" class="bar_item tech">TECHNOLOGIES</div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="panel civilizations open">
+        <div class="title">🚩 CIVILIZATIONS</div>
+        <div class="civ_container">
+          <div class="civ_list">
+            <div id="loading" style="padding: 0.5rem; display: none">
+              <div class="spinner"></div>
+            </div>
+            <ul class="civUl"></ul>
+          </div>
+          <div class="civ_info">
+            <div class="single_info_civ name_civ">
+              Select a civilization from the list
+            </div>
+            <div class="single_info_civ army_type"></div>
+            <div class="single_info_civ team_bonus"></div>
+            <div class="single_info_civ civ_bonus"></div>
+            <div class="civ_uniques">
+              <div class="uniq_unit"></div>
+              <div class="uniq_tech"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel units">
+        <div class="title">💂 UNITS</div>
+      </div>
+      <div class="panel structures">
+        <div class="title">🏰 STRUCTURES</div>
+      </div>
+      <div class="panel technologies">
+        <div class="title">⚙️ TECHNOLOGIES</div>
+      </div>
+    </div>
+    <img
+      src="https://static.ageofempires.com/aoe/wp-content/themes/msgpwebteam/dist/images/hero-logo-age2_ea9d88d4.png"
+      alt=""
+    />
+  </body>
+  <script src="./script.js"></script>
+</html>
+<a href=""></a>
