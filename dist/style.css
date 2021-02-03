@@ -11,7 +11,7 @@ body {
   justify-content: center;
 }
 
-.container {
+.general_container {
   border: solid black 2px;
   border-bottom: solid black 4px;
   height: 85%;
