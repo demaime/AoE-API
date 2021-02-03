@@ -1,0 +1,24 @@
+{
+  "name": "aoe-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demaime/AoE-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demaime/AoE-API/issues"
+  },
+  "homepage": "https://github.com/demaime/AoE-API#readme",
+  "devDependencies": {
+    "webpack": "^5.20.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
